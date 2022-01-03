@@ -1,0 +1,87 @@
+#topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#music-controls img {
+    height: 60px
+}
+
+#warrior {}
+
+#warrior img {
+    height: 200px;
+}
+
+#devil {}
+
+#devil img {
+    height: 100px;
+    margin-top: 50px;
+}
+
+.chars {
+    margin: 15px 40px;
+}
+
+#bottomRow {
+    padding: 20px;
+    font: 20pt Arial;
+    text-align: center;
+}
+
+.stats {
+    width: 350px;
+    height: 400px;
+    visibility: hidden;
+}
+
+.healthLabel {
+    font: 18pt Arial;
+    font-weight: bold;
+}
+
+.buttonStyle {
+    background-color: white;
+    border: 3px solid;
+    border-color: black;
+    font: 24pt Arial;
+    border-radius: 20px;
+    padding: 10px 35px;
+    font-weight: bold;
+}
+
+.buttonStyle:hover {
+    background-color: black;
+    color: white;
+}
+
+.buttonSpecial {
+    background-color: white;
+    border: 3px solid;
+    border-color: black;
+    font: 24pt Arial;
+    border-radius: 20px;
+    padding: 10px 35px;
+    font-weight: bold;
+}
+
+.buttonSpecial:hover {
+    background-color: black;
+    color: white;
+}
+
+.hpBorder {
+    width: 300px;
+    height: 30px;
+    border: 3px solid;
+    border-color: black;
+}
+
+.hpBar {
+    width: 300px;
+    height: 30px;
+    background-color: green;
+}

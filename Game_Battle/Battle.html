@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <audio id="myAudio">
+        <source src="img/ffs.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="container">
+        <div id="topRow">
+            <div id="warriorStats" class="stats">
+                <span class="healthLabel">HEALTH</span><br>
+                <div class="hpBorder">
+                    <div id="warriorHP" class="hpBar"></div>
+                </div>
+                <p id="warriorMoves">
+                    <span class="healthLabel">MOVES</span><br>
+                    <button onclick="attack()" class="buttonStyle">ATTACK</button>
+                </p>
+                <p id="speMoves">
+                    <button onclick="special()" class="buttonSpecial">SPECIAL</button>
+                </p>
+
+            </div>
+            <div id="warrior" class="chars">
+                <img src="img/cloud.gif" id="warrior">
+            </div>
+            <div id="Devil" class="chars">
+                <img src="img/devil.gif" id="">
+            </div>
+            <div id="devilStats" class="stats">
+                <span class="healthLabel">HEALTH</span><br>
+                <div class="hpBorder">
+                    <div id="devilHP" class="hpBar"></div>
+                </div>
+            </div>
+        </div>
+        <div id="bottomRow">
+            <h1>Welcome to the Battle Arena!</h1>
+            <p>warrior facing off against Devil!</p>
+            <button onclick="beginBattle()" class="buttonStyle">BEGIN BATTLE!</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
